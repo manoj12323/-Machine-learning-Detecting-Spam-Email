@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<link rel="icon" href="../static/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" href="../static/css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../static/css/bootstrap-responsive.css" type="text/css" media="screen">    
+<link rel="stylesheet" href="../static/css/supersized.core.css" type="text/css" media="screen">  
+<link rel="stylesheet" href="../static/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../static/css/camera.css" type="text/css" media="screen">
+
+
+<script type="text/javascript" src="../static/js/jquery.js"></script>  
+<script type="text/javascript" src="../static/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../static/js/superfish.js"></script>
+
+<script type="text/javascript" src="../static/js/jquery.ui.totop.js"></script>
+
+<script type="text/javascript" src="../static/js/supersized.core.3.2.1.js"></script>
+
+<script type="text/javascript" src="../static/js/camera.js"></script>
+<script type="text/javascript" src="../static/js/jquery.mobile.customized.min.js"></script>
+<script>
+$(document).ready(function() {
+ 	// camera
+	$('#camera_wrap').camera({
+		//thumbnails: true
+		autoAdvance			: true,		
+		mobileAutoAdvance	: true,
+		height: '43%',
+		hover: false,
+		loader: 'none',
+		navigation: false,
+		navigationHover: false,
+		mobileNavHover: false,
+		playPause: false,
+		pauseOnClick: false,
+		pagination			: true,
+		time: 7000,
+		transPeriod: 1000,
+		minHeight: '150px'
+	});
+
+}); //
+$(window).load(function() {
+	//
+
+}); //
+</script>		
+<!--[if lt IE 8]>
+		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>  
+	<![endif]-->    
+
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>      
+  <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<![endif]-->
+</head>
+
+<body class="main">
+<div id="main">
+<div id="inner">
+
+<div class="container">
+<div class="row">
+<div class="span12">
+<header class="clearfix">
+	 
+</header>	
+</div>	
+</div>	
+</div>
+
+<div class="top1">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="navbar navbar_">
+	<div class="navbar-inner navbar-inner_">
+		<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<div class="nav-collapse nav-collapse_ collapse">
+			<ul class="nav sf-menu clearfix">
+				<li class="active"><a href="{{ url_for('index')}}">Home</a></li>				
+				<li><a href="{{ url_for('login')}}">Login</a></li>	
+				 						
+				 											
+			</ul>
+		</div>
+	</div>
+</div>	
+</div>	
+</div>	
+</div>
+<div id="slider">
+<div id="camera_wrap">
+	<div data-src="../static/images/gmail4.jpg">
+		<div class="camera_caption fadeFromRight">			
+		  <h1 >Detecting Spam Email With Machine Learning
+Optimized With Bio-Inspired
+Metaheuristic Algorithms
+</h1>		
+		</div>     
+	</div>
+	 
+	<div data-src="../static/images/gmail1.jpg">
+		<div class="camera_caption fadeFromRight">			
+			 	<h1>Detecting Spam Email With Machine Learning
+Optimized With Bio-Inspired
+Metaheuristic Algorithms
+</h1>	
+		</div>     
+	</div>
+<div data-src="../static/images/gmail3.jpg">
+		<div class="camera_caption fadeFromRight">			
+			 	<h1 >Detecting Spam Email With Machine Learning
+Optimized With Bio-Inspired
+Metaheuristic Algorithms
+</h1>	
+		</div>     
+	</div>		
+</div>	
+</div>
+</div>
+
+ 
+ 
+
+ 
+ 
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+</div>	
+</div>
+<script type="text/javascript" src="../static/js/bootstrap.js"></script>
+</body>
+</html>
